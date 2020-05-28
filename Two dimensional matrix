@@ -1,5 +1,5 @@
 package com.matrix;
-{
+ import java.util.Scanner;
  public class {
  public static void main (String[] args){
  System.out.println("hello world");
@@ -35,3 +35,4 @@ case 1:
  default :
  System.out.println("Enter the necessary operation.");
  }
+ }}

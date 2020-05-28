@@ -1,0 +1,37 @@
+package com.matrix;
+{
+ public class {
+ public static void main (String[] args){
+ System.out.println("hello world");
+ Scanner input=new Scanner(System.in);
+ for(int i=0;i<2;i++){
+ for(int j=0;j<2;j++){
+ int a[i][j]=input.nextInt();
+ int b[i][j]=input.nextInt();
+ }}
+ System.out.println("Enter 1 for addition,2 for multiplication");
+ int oper=input.nextInt();
+ Switch(oper);
+{ 
+case 1:
+ for(int i=0;i<2;i++)
+ {for(int j=0;j<2;j++)
+ {int result[i][j]=a[i][j]+b[i][j];
+ }}
+ for(int i=0;i<2;i++)
+ {System.out.println(\t);
+ for(int j=0;j<2;j++)
+ {System.out.println(result[i][j]);
+ case 2:
+ for(int i=0;i<2;i++)
+ {for(int j=0;j<2;j++)
+ {for (int k=0;k<2;k++)
+ {result [i][j]=a[i][k]*b[k][j];
+ }}}
+ for(int i=0;i<2;i++)
+ {System.out.println(\t);
+ for(int j=0;j<2;j++)
+ {System.out.println(result[i][j]);
+ default :
+ System.out.println("Enter the necessary operation.");
+ }
